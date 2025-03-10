@@ -1,8 +1,8 @@
 
-# import calendar
-# cal = calendar.month(2025,3)
-# print("Here is the calendar:")
-# print(f"\033[3m\033[34m{cal}")
+ import calendar
+ cal = calendar.month(2025,3)
+ print("Here is the calendar:")
+ print(f"\033[3m\033[34m{cal}")
 
 
 
@@ -14,18 +14,18 @@
 #key error  
 
 
-# num=2
-# num2=0
+ num=2
+ num2=0
 
-# try:
-#     result = [num/num2]
-#     print (result)
-# except ZeroDivisionError:
-#     print("zero division error")
-# except IndexError:
-#     print("please valid index ")
-# except IndentationError:
-#     print("please indentation ")
+ try:
+     result = [num/num2]
+     print (result)
+ except ZeroDivisionError:
+     print("zero division error")
+ except IndexError:
+     print("please valid index ")
+ except IndentationError:
+     print("please indentation ")
 
 # Local and Gobal varibles 
 num_x=5
